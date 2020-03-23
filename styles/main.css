@@ -200,6 +200,8 @@ ul {
     transition: color 0.3s; }
     .nav__link:hover {
       color: #9fadc2; }
+    .nav__link:focus {
+      outline: 1px solid #0075ff; }
   .nav__link-last {
     padding-right: 0; }
   .nav__action {
@@ -855,16 +857,8 @@ ul {
       font-weight: normal;
       font-size: 14px;
       line-height: 14px; }
-    .contacts .form__input-message::-webkit-input-placeholder {
-      padding-top: 1em; }
-    .contacts .form__input-message::-moz-placeholder {
-      padding-top: 1em; }
-    .contacts .form__input-message:-ms-input-placeholder {
-      padding-top: 1em; }
-    .contacts .form__input-message::-ms-input-placeholder {
-      padding-top: 1em; }
-    .contacts .form__input-message::placeholder {
-      padding-top: 1em; }
+    .contacts .form__input-message {
+      padding-top: 2em; }
     .contacts .form__input::-webkit-input-placeholder {
       font-weight: normal;
       font-size: 14px;
